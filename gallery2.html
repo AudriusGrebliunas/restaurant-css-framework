@@ -11,53 +11,68 @@
 </head>
 
 <body>
-    <ul class="nav justify-content-center">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </li>
-    </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="gallery1.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurants.html">Our restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container-sm text-center" style="padding: 50px;">
         <div class="display-1">Pizza Palace</div>
-        <h2 class="mt-2">Gallery</h2>
+        <h2 class="mt-2">Gallery (2/2)</h2>
     </div>
 
     <div class="container-sm">
         <div class="row">
             <div class="col-12">
-                <img src="3.jpg" class="img-fluid mt-2" alt="">
+                <img src="PhotosGallerie/3.jpg" class="img-fluid mt-2" alt="">
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <img src="4.jpg" class="img-fluid mt-2" alt="">
+                <img src="PhotosGallerie/4.jpg" class="img-fluid mt-2" alt="">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <img src="PhotosGallerie/5.jpg" class="img-fluid mt-2" alt="">
             </div>
         </div>
-
     </div>
-
     <div class="d-flex justify-content-center mt-5">
 
         <nav aria-label="...">
             <ul class="pagination pagination-lg">
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="gallery1.html">1</a></li>
                 <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
             </ul>
         </nav>
 
     </div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
