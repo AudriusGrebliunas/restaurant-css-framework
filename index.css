@@ -1,14 +1,32 @@
 body{
-    /* background-image: url(https://images.unsplash.com/photo-1593504049359-74330189a345?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1854&q=80); */
+    background-image: url("image.jpg"); 
     background-repeat: no-repeat;
+    color: white;
 
 }
+
+.card-text{
+    color: black;
+}
+
+.display-1{
+    font-weight: 800;
+}
+
 p{
     font-style: italic;
 }
 
 h3{
     font-style: italic;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
 }
 
 html, body {
@@ -25,3 +43,13 @@ html, body {
     border-radius: 0;
     display: none;
   }
+
+
+.page-item:active{
+
+}
+
+
+.list-group-item{
+    background-color:rgba(0, 0, 0, 0.1)
+}
