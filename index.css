@@ -1,35 +1,39 @@
-body{
-    background-image: url("image.jpg"); 
+body {
+    background-image: url("image.jpg");
     background-repeat: no-repeat;
     color: white;
-
 }
 
-.card-text{
+.card-text {
     color: black;
 }
 
-.display-1{
-    font-weight: 800;
+.display-1 {
+    font-weight: 600;
 }
 
-p{
+p {
     font-style: italic;
 }
 
-h3{
+h3 {
     font-style: italic;
 }
 
-h2{
+h2 {
     color: white;
 }
 
-p{
+h4{
     color: white;
 }
 
-html, body {
+p {
+    color: white;
+}
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -42,14 +46,19 @@ html, body {
     z-index: 999;
     border-radius: 0;
     display: none;
-  }
-
-
-.page-item:active{
-
 }
 
 
-.list-group-item{
-    background-color:rgba(0, 0, 0, 0.1)
+
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.b-example-divider {
+    height: 3rem;
+}
+
+.list-group-item>h3{
+    font-style: normal;
+    color: white;
 }
