@@ -62,3 +62,7 @@ body {
     font-style: normal;
     color: white;
 }
+
+.Veggie, .Supreme, .Margherita, .Pepperoni{
+    display: none;
+}
