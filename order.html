@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery1.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurants.html">Our restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-sm text-center" style="padding: 50px;">
+        <div class="display-1" style="font-weight: 600;">Pizza Palace</div>
+        <h3>Our menu</h3>
+    </div>
+
+    <div class="container-sm">
+        <ul class="list-group">
+            <li class="list-group-item" style="background-color:rgba(0, 0, 0, 0.1);">
+                <h4 style="opacity: 1">Margherita Pizza <span class="badge bg-warning">-30%</span> </h4>
+                <p>Classic tomato sauce, mozzarella cheese, fresh basil.</p>
+                <p>Price: <s>$10.99</s>$8.39</p>
+                <button class="addMargherita">ADD TO CARD</button>
+            </li>
+            <li class="list-group-item">
+                <h4>Pepperoni Pizza <span class="badge bg-primary">Most popular</span> </h4>
+                <p>Tomato sauce, mozzarella cheese, pepperoni slices.</p>
+                <p class="prix">Price: $12.99</p>
+                <button class="addPepperoni">ADD TO CARD</button>
+            </li>
+            <li class="list-group-item">
+                <h4>Hawaiian Pizza</h4>
+                <p>Tomato sauce, mozzarella cheese, ham, pineapple.</p>
+                <p class="prix">Price: $11.99</p>
+                <button class="ajoutPanier">ADD TO CARD</button>
+
+            </li>
+            <li class="list-group-item">
+                <h4>Veggie Pizza <span class="badge bg-success">New</span> </h4>
+                <p>Tomato sauce, mozzarella cheese, bell peppers, mushrooms, onions, olives.</p>
+                <p class="prix">Price: $13.99</p>
+                <button class="addVeggie">ADD TO CARD</button>
+
+            </li>
+            <li class="list-group-item">
+                <h4>Supreme Pizza <span class="badge bg-danger">Spicy!</span> </h4>
+                <p>Tomato sauce, mozzarella cheese, pepperoni, sausage, bell peppers, onions, olives, mushrooms.</p>
+                <p class="prix">Price: $14.99</p>
+                <button class="addSupreme">ADD TO CARD</button>
+
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container-sm">
+        <div class="row justify-content-around text-center">
+            <div class="col-4">
+                <h5>Item</h5>
+                <p class="Pepperoni">Pepperoni</p>
+            </div>
+            <div class="col-4">
+                <h5>Price</h5>
+                <p class="Pepperoni">$12.99</p>
+            </div>
+            <div class="col-4">
+                <h5>Quantity</h5>
+                <input type="number" value="1" min="1" style="width: 50px; " class="Pepperoni nombrePepperoni">
+                <button class="Pepperoni removePepperoni">REMOVE</button>
+            </div>
+        </div>
+
+
+
+        <div class="row text-center">
+            
+                <div class="col-4"><p class="Margherita">Margherita</p></div>
+                <div class="col-4"><p class="Margherita">8.39</p></div>
+                <div class="col-4">
+                    <input type="number" value="1" min="1" style="width: 50px;" class="Margherita nombreMargherita">
+                    <button class="Margherita removeMargherita">REMOVE</button>
+                </div>
+        
+        </div>
+
+        <div class="row text-center">
+            <div class="col-4"><p class="Veggie">Veggie</p></div>
+            <div class="col-4"><p class="Veggie">13.99</p></div>
+            <div class="col-4">
+                <input type="number" value="1" min="1" style="width: 50px;" class="Veggie nombreVeggie">
+                <button class="Veggie removeVeggie">REMOVE</button>
+            </div>
+        </div>
+
+        <div class="row justify-content-around text-center">
+            <div class="col-4"> <p class="Supreme">Supreme Pizza</p></div>
+            <div class="col-4"><p class="Supreme">14.99</p></div>
+            <div class="col-4">
+                <input type="number" value="1" min="1" style="width: 50px;" class="Supreme nombreSupreme">
+                <button class="Supreme removeSupreme">REMOVE</button>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center w-20">
+
+            <button>ORDER</button>
+
+        </div>
+
+        <div class="row">
+
+            <p>Votre total est de <span class="total"></span></p>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="order.js"></script>
+</body>
+
+
+</html>
